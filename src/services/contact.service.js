@@ -1,7 +1,7 @@
 import createApiClient from "./api.service";
 
 class ContactService {
-    constructor(baseUr = "/api/contacts"){
+    constructor(baseUrl = "/api/contacts"){
         this.api = createApiClient(baseUrl);
     }
     async getAll(){

@@ -126,9 +126,9 @@
 
         </script>
 
-                <style scoped>
-                .page {
-                    text-align: left;
-                    max-width: 750px;
-                }
-                </style>
+        <style scoped>
+        .page {
+            text-align: left;
+            max-width: 750px;
+        }
+        </style>

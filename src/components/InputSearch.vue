@@ -1,12 +1,12 @@
 <script>
 export default {
     props: {
-        modelValue: { type: String, default: "" },
+        modelvalue: { type: String, default: "" },
     },
-    emits: ["submit", "update:modelValue"],
+    emits: ["submit", "update:modelvalue"],
     methods: {
-        updateModelValue(e) {
-            this.$emit("update:modelValue", e.target.value);
+        updateModelvalue(e) {
+            this.$emit("update:modelvalue", e.target.value);
          },
         submit() {
             this.$emit("submit");
@@ -21,8 +21,8 @@ export default {
             type="text"
             class="form-control"
             placeholder="Nhập thông tin cần tìm"
-            :value="modelValue"
-            @input="updateModelValue"
+            :value="modelvalue"
+            @input="updateModelvalue"
             @keyup.enter="submit"
         />
         <div class="input-group-append">

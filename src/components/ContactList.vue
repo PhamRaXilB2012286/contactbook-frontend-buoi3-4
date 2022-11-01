@@ -2,7 +2,7 @@
 export default {
     props: {
         contacts: { type: Array, default:[]},
-        activeindex: {type: Number, default: -1},
+        activeIndex: {type: Number, default: -1},
     },
     emits: ["update: activeIndex"],
     methods: {
